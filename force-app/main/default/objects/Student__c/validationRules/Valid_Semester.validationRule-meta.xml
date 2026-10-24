@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valid_Semester</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    NOT(ISBLANK(Semester__c)),
+    OR(
+        Semester__c &lt; 1,
+        Semester__c &gt; 8
+    )
+)</errorConditionFormula>
+    <errorDisplayField>Semester__c</errorDisplayField>
+    <errorMessage>Semester must be between 1 and 8.</errorMessage>
+</ValidationRule>

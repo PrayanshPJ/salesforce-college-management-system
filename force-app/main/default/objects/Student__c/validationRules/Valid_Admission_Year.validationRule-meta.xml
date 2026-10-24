@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valid_Admission_Year</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    NOT(ISBLANK(Admission_Year__c)),
+    OR(
+        Admission_Year__c &lt; 2000,
+        Admission_Year__c &gt; YEAR(TODAY()) + 1
+    )
+)</errorConditionFormula>
+    <errorDisplayField>Admission_Year__c</errorDisplayField>
+    <errorMessage>Enter a valid admission year.</errorMessage>
+</ValidationRule>

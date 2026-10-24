@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Course__c</members>
+        <members>Enrollment__c</members>
+        <members>Faculty__c</members>
+        <members>Student__c</members>
+        <members>Subject__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Enrollment_Confirmation_Flow</members>
+        <members>Faculty_Status_Active_Subject_Review</members>
+        <members>Student_Status_Enrollment_Update</members>
+        <members>Subject_Status_Enrollment_Update</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>EnrollmentTriggerHandler</members>
+        <members>EnrollmentTriggerHandlerTest</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>EnrollmentTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>College_Management_System</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>Course__c</members>
+        <members>Enrollment__c</members>
+        <members>Faculty__c</members>
+        <members>LNCT_College_Home</members>
+        <members>Student__c</members>
+        <members>Subject__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Course__c-Course Layout</members>
+        <members>Enrollment__c-Enrollment Layout</members>
+        <members>Faculty__c-Faculty Layout</members>
+        <members>Student__c-Student Layout</members>
+        <members>Subject__c-Subject Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>College_Management_System_UtilityBar</members>
+        <members>LNCT_College_Home</members>
+        <name>FlexiPage</name>
+    </types>
+    <version>68.0</version>
+</Package>

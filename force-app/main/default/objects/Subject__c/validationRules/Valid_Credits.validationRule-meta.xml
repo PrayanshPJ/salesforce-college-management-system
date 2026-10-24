@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valid_Credits</fullName>
+    <active>true</active>
+    <errorConditionFormula>Credits__c &lt;= 0</errorConditionFormula>
+    <errorDisplayField>Credits__c</errorDisplayField>
+    <errorMessage>Credits must be greater than zero.</errorMessage>
+</ValidationRule>
